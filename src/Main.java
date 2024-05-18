@@ -41,7 +41,7 @@ public class Main {
             double deposit = 15000;
             int monch = 1;
             while (deposit < 12_000_000) {
-                deposit = deposit + deposit * 0.07 ;
+                deposit = deposit + deposit * 0.07;
                 monch++;
                 System.out.println(" Месяц " + monch + " , сумма : " + deposit);
             }
@@ -66,7 +66,7 @@ public class Main {
         double deposit = 15000;
         double period = 9 * 12;
         for (int monch = 1; monch < period; monch++) {
-            deposit = deposit + deposit * 0.07 ;
+            deposit = deposit + deposit * 0.07;
             if (monch % 6 == 0) {
                 System.out.println(" Месяц " + monch + " , сумма : " + deposit);
             }
